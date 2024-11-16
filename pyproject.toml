@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "football-analysis-yolo"
+version = "0.1.0"
+description = ""
+authors = ["Siqi Li <lisiqi9347@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ultralytics = "^8.3.27"
+opencv-python = "^4.10.0.84"
+roboflow = "^1.1.49"
+scikit-learn = "^1.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

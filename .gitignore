@@ -1,0 +1,10 @@
+training/football-players-detection-1
+training/runs
+input_videos/
+output_videos/
+output_data/
+runs/
+yolo11l.pt
+models/
+*.pyc
+.DS_Store
