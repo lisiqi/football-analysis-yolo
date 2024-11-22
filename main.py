@@ -1,5 +1,6 @@
 from utils.video_utils import read_video, save_video
 
+
 def main():
     # read video
     frames = read_video("input_videos/football.mp4")
